@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lebrwcd.blog.front.entity.model.Article;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 /**
  * Description 文章映射接口
  *
@@ -13,4 +15,15 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface ArticleMapper extends BaseMapper<Article> {
+    /**
+     * 热门文章
+     * @return
+     */
+    List<Article> getHotArticle();
+
+    /**
+     * 已发布的文章
+     * @return
+     */
+    List<Article> getPublishArticle();
 }

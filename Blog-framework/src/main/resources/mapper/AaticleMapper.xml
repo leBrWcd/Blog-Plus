@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lebrwcd.blog.mapper.ArticleMapper">
+
+
+    <!--查询前10的热门文章-->
+    <select id="getHotArticle" resultType="com.lebrwcd.blog.entity.model.Article">
+        select id,title,status,view_count
+        from blog_article
+        where del_flag != '1' and status = '0'
+        order by view_count
+        limit 1,10
+    </select>
+
+    <select id="getPublishArticle" resultType="com.lebrwcd.blog.entity.model.Article">
+        select id,title,status,category_id
+        from blog_article
+        where del_flag != '1' and status = '0'
+    </select>
+
+
+</mapper>

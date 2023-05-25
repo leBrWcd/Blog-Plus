@@ -1,6 +1,6 @@
 package com.lebrwcd.blog.common;
 
-import com.lebrwcd.blog.enums.HttpCodeEnum;
+import com.lebrwcd.blog.common.enums.HttpCodeEnum;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.io.Serializable;

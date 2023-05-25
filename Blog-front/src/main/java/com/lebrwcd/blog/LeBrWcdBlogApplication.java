@@ -25,11 +25,11 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @Slf4j
 @MapperScan("com.lebrwcd.blog.mapper")
-public class FrameWorkApplication {
+public class LeBrWcdBlogApplication {
 
     public static void main(String[] args) {
         log.info("启动中......");
-        SpringApplication.run(FrameWorkApplication.class,args);
+        SpringApplication.run(LeBrWcdBlogApplication.class,args);
     }
 
 }

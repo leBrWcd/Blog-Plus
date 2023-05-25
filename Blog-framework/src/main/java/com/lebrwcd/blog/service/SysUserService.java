@@ -14,6 +14,10 @@ import com.lebrwcd.blog.entity.model.SysUser;
  */
 public interface SysUserService extends IService<SysUser> {
 
-    ResponseResult login(LoginDTO loginDTO);
+    ResponseResult login(SysUser user);
+
+    ResponseResult logout();
+
+    ResponseResult register(SysUser user);
 }
 

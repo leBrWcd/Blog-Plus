@@ -7,6 +7,8 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
+
 /**
  * Description 文章控制器
  *
@@ -20,7 +22,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "文章接口",description = "文章相关接口")
 public class ArticleController {
 
-    @Autowired
+    @Resource
     private ArticleService articleService;
 
     @ApiOperation("查询文章详情信息")

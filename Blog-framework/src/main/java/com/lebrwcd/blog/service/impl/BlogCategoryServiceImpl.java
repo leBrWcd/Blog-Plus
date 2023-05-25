@@ -1,7 +1,7 @@
 package com.lebrwcd.blog.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.lebrwcd.blog.constant.SystemConstants;
+import com.lebrwcd.blog.common.constant.SystemConstants;
 import com.lebrwcd.blog.service.BlogCategoryService;
 import com.lebrwcd.blog.entity.model.Article;
 import com.lebrwcd.blog.entity.model.BlogCategory;
@@ -9,7 +9,7 @@ import com.lebrwcd.blog.entity.vo.CategoryVo;
 import com.lebrwcd.blog.mapper.ArticleMapper;
 import com.lebrwcd.blog.mapper.BlogCategoryMapper;
 import com.lebrwcd.blog.common.ResponseResult;
-import com.lebrwcd.blog.utils.CopyBeanUtil;
+import com.lebrwcd.blog.common.utils.CopyBeanUtil;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

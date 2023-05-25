@@ -1,4 +1,4 @@
-package com.lebrwcd.blog.security;
+package com.lebrwcd.blog.common.security;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.lebrwcd.blog.entity.model.SysUser;

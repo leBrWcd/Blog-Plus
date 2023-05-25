@@ -1,4 +1,4 @@
-package com.lebrwcd.blog.utils;
+package com.lebrwcd.blog.common.utils;
 
 import org.springframework.beans.BeanUtils;
 

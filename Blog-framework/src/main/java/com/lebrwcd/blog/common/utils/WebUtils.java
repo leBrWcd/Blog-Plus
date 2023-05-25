@@ -1,6 +1,4 @@
-package com.lebrwcd.blog.utils;
-
-import org.springframework.web.context.request.RequestContextHolder;
+package com.lebrwcd.blog.common.utils;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletResponse;

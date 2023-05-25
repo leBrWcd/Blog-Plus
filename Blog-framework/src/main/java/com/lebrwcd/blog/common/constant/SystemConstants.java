@@ -1,4 +1,4 @@
-package com.lebrwcd.blog.constant;
+package com.lebrwcd.blog.common.constant;
 
 import lombok.Data;
 

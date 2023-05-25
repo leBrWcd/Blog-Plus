@@ -1,6 +1,6 @@
 package com.lebrwcd.blog.conf;
 
-import com.lebrwcd.blog.utils.FastJsonRedisSerializer;
+import com.lebrwcd.blog.common.utils.FastJsonRedisSerializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
